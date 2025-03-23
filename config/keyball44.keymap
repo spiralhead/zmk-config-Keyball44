@@ -65,10 +65,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&none   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5              &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none
-&none   &kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT     &none                     &none         &none         &none         &none         &none         &none
-&none   &none         &none         &none         &none         &none                     &none         &none         &trans        &trans        &none         &none
-&trans  &trans        &trans        &trans        &trans                          &trans  &trans                                                                &trans
+&kp GRAVE   &kp BSLH  &none         &none         &none         &none                     &kp LBKT           &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp RBKT  &kp KP_EQUAL
+&none   &kp LGUI      &kp LALT      &kp LCTRL   &kp LSHIFT     &kp INS                    &kp PLUS           &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS         &kp COMMA
+&none   &none         &none         &none         &none         &none                     &kp KP_MULTIPLY    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_DIVIDE     &kp DOT
+&trans  &trans        &trans        &trans        &trans                          &trans  &trans                                                                &kp NUMBER_0
             >;
         };
 
