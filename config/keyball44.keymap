@@ -75,9 +75,9 @@
         symbol_layer {
             label = "MOV";
             bindings = <
-&ks LS(Tab)   &kp C_PAUSE   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &none           &none      &none       &none       &none      &none  &none
-&kp LSHIFT    &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHIFT     &kp INS         &kp LEFT   &kp DOWN    &kp UP      &kp RIGHT  &none  &none
-&kp LCTRL     &none         &none         &none         &K_APP         &none           &kp END    &kp PG_DN   &kp PG_UP   &kp HOME   &none  &none
+&ks LS(Tab)   &kp C_PAUSE   &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2          &none      &none       &none       &none      &none  &none
+&kp LSHIFT    &kp LGUI      &kp LALT      &kp LCTRL     &kp LSHIFT     &kp INS               &kp LEFT   &kp DOWN    &kp UP      &kp RIGHT  &none  &none
+&kp LCTRL     &none         &none         &none         &kp K_APP      &none                 &kp END    &kp PG_DN   &kp PG_UP   &kp HOME   &none  &none
 &trans  &trans           &trans        &trans        &trans                         &trans  &trans                                          &trans
             >;
         };
