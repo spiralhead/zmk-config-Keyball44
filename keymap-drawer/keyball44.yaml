@@ -14,10 +14,10 @@ layers:
   - P
   - {t: '[', s: '{'}
   - $$mdi:apple-keyboard-shift$$
-  - A
+  - {t: A, h: MOUSE}
   - S
   - D
-  - {t: F, h: MOUSE}
+  - {t: F, h: FUN}
   - G
   - H
   - J
@@ -152,7 +152,7 @@ layers:
   - F5
   - F6
   - F7
-  - F8
+  - {t: F8, type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -194,10 +194,10 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:arrow-left-bold$$', type: held}
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:arrow-right-bold$$', type: held}
+  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgUp
   - $$mdi:mouse-left-click-outline$$
