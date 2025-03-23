@@ -41,7 +41,7 @@ layers:
   - NUM
   - LGUI
   - $$mdi:keyboard-space$$
-  - MOV
+  - SYM
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:backspace-reverse-outline$$
@@ -90,7 +90,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '0'
-  MOV:
+  SYM:
   - Sft+Alt+Tab
   - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
