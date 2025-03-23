@@ -91,7 +91,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '0'
   MOV:
-  - Alt+Sft+$$mdi:keyboard-tab$$
+  - Alt+Ctl+$$mdi:keyboard-tab$$
   - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
