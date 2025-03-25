@@ -357,6 +357,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&LPAR'
-  - '&RPAR'
+  - (
+  - )
   - {t: '$$mdi:transfer$$', type: trans}
