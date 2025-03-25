@@ -57,7 +57,7 @@ layers:
   - '8'
   - '9'
   - {t: ']', s: '}'}
-  - KP EQUAL
+  - {t: '=', s: +}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - LGUI
   - $$mdi:apple-keyboard-option$$
