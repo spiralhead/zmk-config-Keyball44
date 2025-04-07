@@ -29,8 +29,8 @@ layers:
   - Z
   - X
   - C
-  - {t: V, h: SYM}
-  - {t: B, h: NUM}
+  - {t: V, h: NUM}
+  - {t: B, h: SYM}
   - N
   - {t: M, h: SCROLL}
   - {t: ',', s: <}
@@ -74,8 +74,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - KP MULTIPLY
   - '1'
   - '2'
@@ -344,8 +344,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '`', s: '~'}
   - '!'
   - '@'
