@@ -126,9 +126,9 @@
             label = "SYM";
             bindings = <
 &none   &none  &none    &none         &none         &none                                  &kp LBRC           &kp AMPS   &kp ASTRK   &kp LPAR    &kp RBRC  &kp BSLH
-&trans   &kp LGUI      &kp LALT      &kp LCTRL   &kp LSHIFT     &kp INS                    &kp COLON           &kp DOLLAR   &kp PRCNT   &kp CARET   &kp SEMI  &kp GT
-&trans   &none         &none         &none         &none         &none                     &kp GRAVE    &kp EXCL    &kp AT  &kp HASH &kp UNDER   &kp LT
-&trans  &trans        &trans        &trans        &trans                          &kp LPAR  &kp RPAR                                                                &trans
+&trans   &kp LGUI      &kp LALT      &kp LCTRL   &kp LSHIFT     &kp INS                    &kp COLON           &kp DOLLAR   &kp PRCNT   &kp CARET   &kp UNDER  &kp GT
+&trans   &none         &none         &none         &none         &none                     &kp GRAVE    &kp EXCL    &kp AT  &kp HASH &kp SEMI   &kp LT
+&trans  &trans        &trans        &trans        &trans                          &trans  &trans                                                                &kp RPAR
             >;
         };
     };
