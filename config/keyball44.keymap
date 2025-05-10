@@ -31,11 +31,7 @@
 // &soft_off {
 //    hold-time-ms = <5000>; // Only turn off it the key is held for 5 seconds or longer.
 // };
-&ext_power {
-    compatible = "zmk,ext-power-generic";
-    control-gpios = <&my_gpio 5 GPIO_ACTIVE_HIGH>;
-    init-delay-ms = <100>;
-};
+
 / {
     // custom shift using mod-morph 
 
