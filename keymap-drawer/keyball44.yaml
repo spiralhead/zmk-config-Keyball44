@@ -73,7 +73,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - W
   - O
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '9'
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - KP MULTIPLY
