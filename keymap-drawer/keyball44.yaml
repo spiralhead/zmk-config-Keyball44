@@ -72,7 +72,7 @@ layers:
   - {t: ',', s: <}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - W
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - O
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
