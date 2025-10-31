@@ -37,8 +37,8 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
   - NUM
+  - $$mdi:apple-keyboard-option$$
   - LGUI
   - $$mdi:keyboard-space$$
   - MOV
@@ -82,8 +82,8 @@ layers:
   - '3'
   - KP DIVIDE
   - {t: ., s: '>'}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
