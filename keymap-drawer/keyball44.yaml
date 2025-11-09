@@ -118,7 +118,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - L
   - APP
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - END
