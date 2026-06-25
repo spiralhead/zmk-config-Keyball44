@@ -109,6 +109,7 @@
 &i2c0 {
     status = "okay";
     compatible = "nordic,nrf-twim";
+    clock-frequency = <100000>;   /* I2C standard mode (100 kHz) - most tolerant of marginal wiring */
     pinctrl-0 = <&i2c0_default>;
     pinctrl-1 = <&i2c0_sleep>;
     pinctrl-names = "default", "sleep";
