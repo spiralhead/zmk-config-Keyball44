@@ -67,3 +67,19 @@
 
   };
 };
+
+/* --- TEMPORARY DIAGNOSTIC: USB CDC ACM console for ZMK_USB_LOGGING --- */
+/* Provides the cdc-acm-uart node USB logging needs, and routes the     */
+/* console/log output to it. Remove this block after debugging OLED.    */
+&zephyr_udc0 {
+    cdc_acm_uart0: cdc_acm_uart0 {
+        compatible = "zephyr,cdc-acm-uart";
+    };
+};
+
+/ {
+    chosen {
+        zephyr,console = &cdc_acm_uart0;
+    };
+};
+/* --- END TEMPORARY DIAGNOSTIC --- */
